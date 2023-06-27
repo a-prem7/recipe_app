@@ -6,13 +6,17 @@
   }
 
   body {
-    background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
-    
-
+    background-color: black;
+    background-image: url(/images/recipe-edited.jpg) ;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size:cover;
+
 
   }
+    
+
+
+  
   .container {
     background-color: #ffffff;
     font-size: 16px;
@@ -120,4 +124,14 @@
     text-align: center;
     margin-top: 1.8em;
     color: #202030;
+  }
+  @media screen and (max-width: 500px) {
+    body {
+ background-size:fill;
+
+    }
+    .container {
+
+      font-size: 14px;
+    }
   }
