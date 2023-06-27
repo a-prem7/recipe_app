@@ -126,12 +126,7 @@
     color: #202030;
   }
   @media screen and (max-width: 500px) {
-    body {
- background-size:fill;
-
-    }
     .container {
-
       font-size: 14px;
     }
   }
